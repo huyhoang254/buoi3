@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+	<link rel="shorcut icon" href="favicon.ico">
+</head>
+<body>
+	Nhập số thứ 1 : <input id="a" type="number" name=""> <br> <br>
+	Nhập số thứ 2 : <input id="b" type="number" name="">
+	<h2 onclick="ketqua()">Ket qua : <span id="kq"></span></h2>
+	<script type="text/javascript">
+	  function ketqua(a,b,c)
+	  {
+	  	var x = parseInt(document.getElementById ('a').value);
+	  	var y = parseInt(document.getElementById ('b').value);
+	  	var ketqua = x*y;
+	  	 document.getElementById ("kq").innerHTML = ketqua;
+	  }
+	 
+	</script>
+
+</body>
+</html>
